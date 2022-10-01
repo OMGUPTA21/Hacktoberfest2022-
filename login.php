@@ -16,3 +16,5 @@ else{
     header("location:index.php");
 }
 ?>
+
+//If_else work great
