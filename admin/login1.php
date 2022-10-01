@@ -10,7 +10,7 @@
 <style>
 body {
   background-image: url("study.jpg");
-  background-repeat: no-repeat, repeat;
+  background-repeat: no-repeat, repeat;//css done will be done
   background-size: cover;
 }
 h1{
@@ -100,14 +100,14 @@ div {
 </style>
 
 <body>
-  <h1>TECHNO HUB WORKSPACE</h1>
+  <h1>TECHNO HUB WORKSPACE</h1>//title of workspace
     <div class="container form">
      <form  action="view.php" method="POST" >
      <center><img src="edu.jpg"style="height:100px;"></center>
      <br>
             <select name="category" id="category">
                 <option value="chose">option</option>
-                <option value="1">ADMIN</option>
+                <option value="1">ADMIN</option>//login by all authority
                 <option value="2">Teacher</option>
                 <option value="3">Student</option>
             </select>
