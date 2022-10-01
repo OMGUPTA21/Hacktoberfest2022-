@@ -11,9 +11,7 @@
         <form action="login.php" method="post">
             <select name="category" id="category">
                 <option value="chose">option</option>
-                <option value="1">ADMIN</option>
-                <option value="2">TEACHER</option>
-                <option value="3">STUDENT</option>
+
             </select>
             <input type="text"  name="user" id="user" placeholder="Enter your your Username :">
             <input type="password" name="pass" id="pass" placeholder="Enter your your Password :"> 
