@@ -11,7 +11,7 @@
         <form action="login.php" method="post">
             <select name="category" id="category">
                 <option value="chose">option</option>
-                <option value="1">ADMIN</option>
+                <option value="1">ADMIN</option>//all authority login will be given
                 <option value="2">Teacher</option>
                 <option value="3">Student</option>
             </select>
