@@ -11,7 +11,7 @@
 body {
   background-image: url("study.jpg");
   background-repeat: no-repeat, repeat;//css done will be done
-  background-size: cover;
+  background-size: cover;//cover in order a resize view
 }
 h1{
   color:green;
