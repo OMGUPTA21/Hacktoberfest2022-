@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SIGNUP/LOGINPAGE</title>
 </head>
 
 <style>
@@ -125,6 +125,7 @@ h2{
    
                 
     <?php
+    //For admin page
              if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                 $user = $_POST['user'];
                 $apassword = $_POST['pass'];
@@ -180,7 +181,7 @@ h2{
           }
           
  
-       }
+       }//for teacher login
       elseif($cat == 2){
         if($apassword == $cpassword){
            
@@ -211,7 +212,7 @@ h2{
       
 
    }
-   elseif($cat == 3){
+   elseif($cat == 3){//for student
     if($apassword == $cpassword){
        
       
