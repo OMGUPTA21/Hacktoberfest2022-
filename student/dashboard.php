@@ -77,7 +77,7 @@ nav a{
 <nav>
 <a href="Logout.php">LOGOUT</a>
 </nav>
-<h3 class="welcome typing-demo"><b>WELCOME</b> <?php echo $_SESSION["user"]?></h3>
+    <h3 class="welcome typing-demo"><b>WELCOME </b> <?php echo $_SESSION["user"]?><b>portal</b></h3>
  <br>
     <div class="container">
     <br>
@@ -86,7 +86,7 @@ nav a{
     <h2>ENROLMENT FORM FOR UPCOMMING BACHE 2022-23 ...SOON RELEASED....</h2>
    
 <?php
-include("service.php");
+include("service.php");//service page
 ?>
 </div>
 </body>
